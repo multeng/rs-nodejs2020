@@ -1,0 +1,23 @@
+{
+  "name": "rs-nodejs2020",
+  "version": "1.0.0",
+  "description": "1. Clone this repo\r 2. npm i\r 3. cd caesar-cli\\\r 4. How to use\r ## Cmd options\r   **-s, --shift**: a shift\r   **-i, --input**: an input file\r   **-o, --output**: an output file\r   **-a, --action**: an action encode/decode\r ```bash\r $ node caesar-cli -a encode -s 7 -i \"./input.txt\" -o \"./output.txt\"\r ```\r or\r ```bash\r $ node caesar-cli --action encode --shift 7 --input input.txt --output output.txt\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multeng/rs-nodejs2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/multeng/rs-nodejs2020/issues"
+  },
+  "homepage": "https://github.com/multeng/rs-nodejs2020#readme",
+  "dependencies": {
+    "commander": "^6.1.0"
+  }
+}
